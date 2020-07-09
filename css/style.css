@@ -1,0 +1,48 @@
+body {
+  font-family: Roboto;
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E0E00, #1F1C18);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8E0E00, #1F1C18);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+h1{
+    background-color: chocolate;
+    color: beige;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: monospace;
+    padding-left: 100px;
+    border-radius: 20px;
+}
+#calbtn{
+    background-color: wheat;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+
+}
+
+#calbtn:hover{
+    background-color:darkgoldenrod ;
+    color: crimson;
+    transition: .3s;
+}
+#callbtn:active{
+    position: fixed;
+    top: 1px;
+}
+

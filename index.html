@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        
+        <h1>TIP CALCULATOR</h1>
+        
+        <div>
+            <form>
+                <sup>*</sup>PLEASE ENTER THE Bill AMOUNT:
+                <input type="number" id="billamt" name="billamt" value="" placeholder="enter amount">
+                <br>
+                <br>
+                <sup>*</sup>HOW WAS YOUR FOOD?:
+                <select id="quality" value="">
+                    <option selected>select rating</option>
+                    <option id="Outstanding" value="0.25">Outstanding</option>
+                    <option id="good" value="0.2">good</option>
+                    <option id="Average" value="0.15">Average</option>
+                    <option id="bad" value="0.1">bad</option>
+                    <option id="terrible" value="0.05">Terrible</option>
+                </select>
+                <br>
+                <br>
+                <sup>*</sup>HOW MANY MEMBERS?
+                <input type="number" id="member" name="member" value="" placeholder="enter members">
+                <br>
+                <br> 
+                calculate:
+                <input type="button" value="CALC" id="calbtn" maxlength="10px"> 
+             </form>
+        </div>
+        <div>
+           <br>
+            <p>calulated tip</p>
+            <sup>R</sup><span id="tip">0.00</span>
+            <small id="each">each</small>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
